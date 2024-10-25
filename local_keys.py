@@ -1,3 +1,4 @@
+#Weather
 WEATHER_API_KEY=''
 WEATHER_URL='http://api.weatherapi.com/v1/current.json'
 WEATHER_CITY=''
