@@ -10,6 +10,7 @@ Welcome to the JARVIS Assistant project! JARVIS is a voice-activated assistant i
 - Code Generation: Generate Python code snippets based on user requests.
 - Current Time: Retrieve the current time in a specified format.
 - News Fetching: Stay updated with the latest news headlines.
+- Play Spotify: Play a song through spotify on the web.
 
 ## Getting Started
 
