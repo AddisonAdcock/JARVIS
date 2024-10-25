@@ -4,6 +4,7 @@ from timer import *
 from current_time import *
 from code_generator import *
 from news import *
+from spotify import *
 
 def main():
     while True:
@@ -22,6 +23,11 @@ def main():
                 handle_timer_command(duration)
             elif "news" in user_command:
                 handle_news_command()
+            elif "play" in user_command:
+                song_request = user_command.split("play")[-1].strip()
+                play_spotify(song_request)
+            elif "stop" in user_command:
+                stop_music()
             else:
                 handle_user_command(user_command)
         check_timers()
