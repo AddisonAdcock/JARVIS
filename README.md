@@ -48,15 +48,15 @@ You will need several API keys for the JARVIS Assistant to function properly. Cr
 
 
 - OpenAI API Key for GPT-4
-API_KEY = "your_openai_api_key"
+- API_KEY = "your_openai_api_key"
 
 - Weather API Key
-WEATHER_API_KEY = "your_weather_api_key"
-WEATHER_URL = "http://api.weatherapi.com/v1/current.json"
-WEATHER_CITY = "your_default_city"
+- WEATHER_API_KEY = "your_weather_api_key"
+- WEATHER_URL = "http://api.weatherapi.com/v1/current.json"
+- WEATHER_CITY = "your_default_city"
 
 - News API Key
-NEWS_API_KEY = "your_news_api_key"
+- NEWS_API_KEY = "your_news_api_key"
 
 
 # Obtaining API Keys
