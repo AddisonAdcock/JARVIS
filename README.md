@@ -35,12 +35,14 @@ Install the necessary Python libraries:
 - json
 - os
 - pathlib
+- pyautogui
 - pygame
 - re
 - requests
 - speech_recognition
 - subprocess
 - time
+- webbrowser
 
 ### Setting Up API Keys
 

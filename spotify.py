@@ -2,7 +2,6 @@ import pyautogui
 import webbrowser
 import time
 
-# Global variable to track if music is playing
 is_playing = False
 
 def play_spotify(song):
