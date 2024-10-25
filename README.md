@@ -46,17 +46,16 @@ Install the necessary Python libraries:
 
 You will need several API keys for the JARVIS Assistant to function properly. Create a file named `local_keys.py` in the project directory and add the following keys:
 
-# local_keys.py
 
-# OpenAI API Key for GPT-4
+- OpenAI API Key for GPT-4
 API_KEY = "your_openai_api_key"
 
-# Weather API Key
+- Weather API Key
 WEATHER_API_KEY = "your_weather_api_key"
 WEATHER_URL = "http://api.weatherapi.com/v1/current.json"
 WEATHER_CITY = "your_default_city"
 
-# News API Key
+- News API Key
 NEWS_API_KEY = "your_news_api_key"
 
 
@@ -66,8 +65,7 @@ Weather API Key: Register at WeatherAPI to get your API key.
 News API Key: Get an API key from NewsAPI.
 
 # Running the Assistant
-Once you have added your API keys, you can run the JARVIS Assistant using the following command:
-
+Once you have added your API keys, you can run the JARVIS Assistant using "python main.py"
 
 # Contribution
 Feel free to fork this repository and make improvements!
